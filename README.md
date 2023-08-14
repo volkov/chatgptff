@@ -1,4 +1,4 @@
-Somehow install this extension...
+Install [it](https://addons.mozilla.org/en-US/firefox/addon/chatgptff/)
 
 Try https://chat.openai.com/?q=test
 
@@ -9,3 +9,8 @@ firefox localhost:8080/chatgpt.html
 ```
 
 Follow open serach installation instructions https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox
+
+## Distribution
+```bash
+zip chatgpt.zip chatgptff.js manifest.json
+```

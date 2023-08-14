@@ -5,10 +5,6 @@
 
   "description": "Adds ability to ask question from parameter q",
 
-  "icons": {
-    "48": "icons/border-48.png"
-  },
-
   "content_scripts": [
     {
       "matches": ["*://chat.openai.com/*"],
