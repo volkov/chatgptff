@@ -1,6 +1,3 @@
-// document.body.style.border = "5px solid red";
-
-console.log("Hi from chatgptff")
 function sendPrompt(text) {
     const v = document.getElementById('prompt-textarea');
     v.value = text;
@@ -14,9 +11,9 @@ function sendPrompt(text) {
             bubbles: true
         }));
     }, 500)
-};
+}
 const query = new URL(window.location.href).searchParams.get("q");
 console.log("Process by chatgptff " + query);
-sendPrompt(new URL(window.location.href).searchParams.get("q"));
+setTimeout(() => {sendPrompt(query)}, 500)
 
 
